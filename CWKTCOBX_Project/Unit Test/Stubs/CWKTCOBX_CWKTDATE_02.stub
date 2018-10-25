@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTCOBX_CWKTDATE_02.stub" stubtype="Program" target="CWKTDATE" token="50000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Oct 11, 2018 5:36:47 PM</stub:description>
+  <stub:stubdata id="0" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input0.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input0.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input0.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input0.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input0.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input0.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output0.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output0.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output0.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output0.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output0.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output0.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input0.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input0.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input0.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input1.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input1.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input1.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output1.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F4</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output1.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output1.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input1.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('94').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">94</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('5').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('1').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input2.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F4</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input2.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input2.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F9F0F7F2F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output2.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F9</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output2.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output2.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F9F0F7F2F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input2.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('24').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">24</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('89').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">89</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('7').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">7</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('20').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">20</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input3.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F9</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input3.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input3.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F3F0F6F1F4</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output3.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output3.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output3.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F3F0F6F1F4</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input3.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('29').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">29</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('83').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">83</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('6').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">6</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('14').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">14</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input4.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input4.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input4.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output4.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output4.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output4.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input4.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('35').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">35</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('87').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">87</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('3').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">3</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('31').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">31</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input5.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input5.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input5.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F1F1F1F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output5.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F6</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output5.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output5.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F1F1F1F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input5.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('31').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">31</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('81').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">81</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('11').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">11</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('11').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">11</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input6.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F6</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input6.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input6.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F8F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output6.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F6</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output6.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output6.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F8F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input6.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input6.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('36').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">36</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input6.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('82').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">82</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('8').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">8</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('30').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">30</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input7.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F6</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input7.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input7.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F3F0F4F0F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output7.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output7.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output7.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F3F0F4F0F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input7.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input7.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('36').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">36</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input7.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('93').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">93</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('4').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">4</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('5').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input8.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input8.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input8.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F1F0F9F1F3</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output8.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F7</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output8.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output8.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F1F0F9F1F3</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input8.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input8.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('25').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">25</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input8.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('91').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">91</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('9').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">9</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('13').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">13</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input9.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F7</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input9.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input9.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F8F0F2F2F9</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output9.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output9.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output9.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F8F0F2F2F9</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input9.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input9.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('27').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">27</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input9.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('88').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">88</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('2').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('29').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">29</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input10.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input10.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input10.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output10.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output10.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output10.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input10.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input10.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('30').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">30</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input10.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('86').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">86</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('1').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('2').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTDATE.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="input11.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="input11.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input11.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F9F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output11.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F6</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output11.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F8F1F0F1F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output11.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F2F0F9F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input11.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW">
+        <checkconditions:expression>'N' eq result.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">N</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input11.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE">
+        <checkconditions:expression>BigDecimalCreator.make('32').compareTo(result.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">32</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input11.arg2.TODAYS_DATE.TODAYS_DATE">
+        <checkconditions:expression>'181011' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181011</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY">
+        <checkconditions:expression>BigDecimalCreator.make('82').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">82</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM">
+        <checkconditions:expression>BigDecimalCreator.make('9').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">9</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD">
+        <checkconditions:expression>BigDecimalCreator.make('30').compareTo(result.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">30</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+</stub:stub>

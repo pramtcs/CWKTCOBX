@@ -1,0 +1,6069 @@
+
+***************** Output from TTTRUNNR *****************
+
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR011I totaltest zTargetRunner v170200 on 2018-10-12 16:07.35��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite CWKTCOBX
+ STTR014I Processing test scenario CWKTCOBX
+ STTR028I Processing test case CWKTCOBX
+ STTR006I Executing target CWKTCOBX
+ STTR028I Processing test case ��������
+ STTR006I Executing target CWKTCOBX
+ STTR028I Processing test case ��������
+ STTR006I Executing target CWKTCOBX
+ STTR008I All targets successfully executed
+
+***************** Output from TTOUT *****************
+
+ ---BNDTARGT---entry
+ --->>>modName = CWKTCOBX, epName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = CWKTCOBX, epName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---IDRDDIO---entry
+ --->>>modName = CWKTCOBX, csectName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2018284, Length = 40
+   data = c3e7c3e6d2e3c3d6c2e706c753d7708367aa009000a43a9800000000000000000000000000000000
+   program = CWKTCOBX, ddio(19) = COMPWR.CPWR.CX.DDIO
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTCOBX, pgmName = CWKTCOBX, vName = CWKTSUBC
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 64, rs = <0X83000800>.
+ --->>>class_offset: 00003228
+ --->>>element_offset: 00003228
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---SUBPGM---entry
+ name: CWKTSUBC,
+ token: 00000000, 0;
+ ---SUBPGMcxx---entry
+ token: 00000000, 0
+ assertFlag:
+ ---SUBPGMcxx---exit
+ ---SUBPGM---exit  newSubPgm: 13526028
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTCOBX, pgmName = CWKTCOBX, vName = CWKTDATE
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 64, rs = <0X83000800>.
+ --->>>class_offset: 00003224
+ --->>>element_offset: 00003224
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---SUBPGM---entry
+ name: CWKTDATE,
+ token: 00000000, 0;
+ ---SUBPGMcxx---entry
+ token: 00000000, 0
+ assertFlag:
+ ---SUBPGMcxx---exit
+ ---SUBPGM---exit  newSubPgm: 134D8028
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: -1
+ curArgCallTemp: 0
+ ---nextSubCallTemp---exit: 0
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: -1
+ curArgCallTemp: 0
+ ---nextSubCallTemp---exit: 0
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 0
+ curArgCallTemp: 1
+ ---nextSubCallTemp---exit: 1
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 0
+ curArgCallTemp: 1
+ ---nextSubCallTemp---exit: 1
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 1
+ curArgCallTemp: 2
+ ---nextSubCallTemp---exit: 2
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 1
+ curArgCallTemp: 2
+ ---nextSubCallTemp---exit: 2
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 2
+ curArgCallTemp: 3
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 3
+ curArgCallTemp: 4
+ ---nextSubCallTemp---exit: 4
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 2
+ curArgCallTemp: 3
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 4
+ curArgCallTemp: 5
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 3
+ curArgCallTemp: 4
+ ---nextSubCallTemp---exit: 4
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 5
+ curArgCallTemp: 6
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 6
+ curArgCallTemp: 7
+ ---nextSubCallTemp---exit: 7
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 7
+ curArgCallTemp: 8
+ ---nextSubCallTemp---exit: 8
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 4
+ curArgCallTemp: 5
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 8
+ curArgCallTemp: 9
+ ---nextSubCallTemp---exit: 9
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 9
+ curArgCallTemp: 10
+ ---nextSubCallTemp---exit: 10
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 5
+ curArgCallTemp: 6
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 10
+ curArgCallTemp: 11
+ ---nextSubCallTemp---exit: 11
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---BNDTARGT---entry
+ --->>>modName = CWKTCOBX, epName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = CWKTCOBX, epName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---IDRDDIO---entry
+ --->>>modName = CWKTCOBX, csectName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2018284, Length = 40
+   data = c3e7c3e6d2e3c3d6c2e706c753d7708367aa009000a43a9800000000000000000000000000000000
+   program = CWKTCOBX, ddio(19) = COMPWR.CPWR.CX.DDIO
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTCOBX, pgmName = CWKTCOBX, vName = CWKTSUBC
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 64, rs = <0X83000800>.
+ --->>>class_offset: 00003228
+ --->>>element_offset: 00003228
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---SUBPGM---entry
+ name: CWKTSUBC, Y
+ token: 00000000, 0;
+ ---SUBPGMcxx---entry
+ token: 00000000, 0
+ assertFlag: Y
+ ---SUBPGMcxx---exit
+ ---SUBPGM---exit  newSubPgm: 14699028
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTCOBX, pgmName = CWKTCOBX, vName = CWKTDATE
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 64, rs = <0X83000800>.
+ --->>>class_offset: 00003224
+ --->>>element_offset: 00003224
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---SUBPGM---entry
+ name: CWKTDATE, Y
+ token: 00000000, 0;
+ ---SUBPGMcxx---entry
+ token: 00000000, 0
+ assertFlag: Y
+ ---SUBPGMcxx---exit
+ ---SUBPGM---exit  newSubPgm: 146CE028
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: -1
+ curArgCallTemp: 0
+ ---nextSubCallTemp---exit: 0
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: -1
+ curArgCallTemp: 0
+ ---nextSubCallTemp---exit: 0
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 0
+ curArgCallTemp: 1
+ ---nextSubCallTemp---exit: 1
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 0
+ curArgCallTemp: 1
+ ---nextSubCallTemp---exit: 1
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 1
+ curArgCallTemp: 2
+ ---nextSubCallTemp---exit: 2
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 1
+ curArgCallTemp: 2
+ ---nextSubCallTemp---exit: 2
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 2
+ curArgCallTemp: 3
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 3
+ curArgCallTemp: 4
+ ---nextSubCallTemp---exit: 4
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 2
+ curArgCallTemp: 3
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 4
+ curArgCallTemp: 5
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 3
+ curArgCallTemp: 4
+ ---nextSubCallTemp---exit: 4
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 5
+ curArgCallTemp: 6
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 6
+ curArgCallTemp: 7
+ ---nextSubCallTemp---exit: 7
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 7
+ curArgCallTemp: 8
+ ---nextSubCallTemp---exit: 8
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 4
+ curArgCallTemp: 5
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 8
+ curArgCallTemp: 9
+ ---nextSubCallTemp---exit: 9
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 9
+ curArgCallTemp: 10
+ ---nextSubCallTemp---exit: 10
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 5
+ curArgCallTemp: 6
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 10
+ curArgCallTemp: 11
+ ---nextSubCallTemp---exit: 11
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 2
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 6
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 10
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 8
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 4
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 8
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 4
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 8
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 4
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 8
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 4
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 8
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 4
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 8
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 4
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 1
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 8
+ ---call retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ ---buildAvRec---exit: 4
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 10
+ ---DORTRV---exit
+ ---BNDTARGT---entry
+ --->>>modName = CWKTCOBX, epName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = CWKTCOBX, epName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---IDRDDIO---entry
+ --->>>modName = CWKTCOBX, csectName = CWKTCOBX
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  IDRU: Creation Date = 2018284, Length = 40
+   data = c3e7c3e6d2e3c3d6c2e706c753d7708367aa009000a43a9800000000000000000000000000000000
+   program = CWKTCOBX, ddio(19) = COMPWR.CPWR.CX.DDIO
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---IDRDDIO---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTCOBX, pgmName = CWKTCOBX, vName = CWKTDATE
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 64, rs = <0X83000800>.
+ --->>>class_offset: 00003224
+ --->>>element_offset: 00003224
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---SUBPGM---entry
+ name: CWKTDATE,
+ token: 00000000, 0;
+ ---SUBPGMcxx---entry
+ token: 00000000, 0
+ assertFlag:
+ ---SUBPGMcxx---exit
+ ---SUBPGM---exit  newSubPgm: 14703028
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTCOBX, pgmName = CWKTCOBX, vName = CWKTSUBC
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTCOBX
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 64, rs = <0X83000800>.
+ --->>>class_offset: 00003228
+ --->>>element_offset: 00003228
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---SUBPGM---entry
+ name: CWKTSUBC,
+ token: 00000000, 0;
+ ---SUBPGMcxx---entry
+ token: 00000000, 0
+ assertFlag:
+ ---SUBPGMcxx---exit
+ ---SUBPGM---exit  newSubPgm: 14738028
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: -1
+ curArgCallTemp: 0
+ ---nextSubCallTemp---exit: 0
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: -1
+ curArgCallTemp: 0
+ ---nextSubCallTemp---exit: 0
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 0
+ curArgCallTemp: 1
+ ---nextSubCallTemp---exit: 1
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 0
+ curArgCallTemp: 1
+ ---nextSubCallTemp---exit: 1
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 1
+ curArgCallTemp: 2
+ ---nextSubCallTemp---exit: 2
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 1
+ curArgCallTemp: 2
+ ---nextSubCallTemp---exit: 2
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 2
+ curArgCallTemp: 3
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 3
+ curArgCallTemp: 4
+ ---nextSubCallTemp---exit: 4
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 2
+ curArgCallTemp: 3
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 4
+ curArgCallTemp: 5
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 3
+ curArgCallTemp: 4
+ ---nextSubCallTemp---exit: 4
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 5
+ curArgCallTemp: 6
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 6
+ curArgCallTemp: 7
+ ---nextSubCallTemp---exit: 7
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 7
+ curArgCallTemp: 8
+ ---nextSubCallTemp---exit: 8
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 4
+ curArgCallTemp: 5
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 8
+ curArgCallTemp: 9
+ ---nextSubCallTemp---exit: 9
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 9
+ curArgCallTemp: 10
+ ---nextSubCallTemp---exit: 10
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 7, callTemp: 5
+ curArgCallTemp: 6
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsIn---entry
+ AVsIn size: 3
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 8
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 4
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 3
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'0D28723C'
+ ---doCall---entry
+ parmlist: X'0D28723C'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 12, callTemp: 10
+ curArgCallTemp: 11
+ ---nextSubCallTemp---exit: 11
+ ---storeAVsIn---entry
+ AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsIn---exit
+ ---copyAVsOut---entry
+ AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0

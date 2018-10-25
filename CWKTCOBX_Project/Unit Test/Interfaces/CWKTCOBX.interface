@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180920-0235_707?>
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Oct 11, 2018 2:12:31 PM-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWKTCOBX.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_LTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_DATA">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.GRAND_TOTAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.TOTAL_RECORD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

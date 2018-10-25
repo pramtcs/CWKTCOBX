@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180920-0235_707?>
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Oct 11, 2018 2:12:31 PM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure">
+  <listructure:struct id="PARMINFO" name="PARMINFO">
+    <properties:properties>
+      <properties:property name="storageLength" type="number">14</properties:property>
+      <properties:property name="displayLength" type="number">14</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+    </properties:properties>
+    <listructure:number id="PARMINFO.PARM_LTH" length="4" name="PARM_LTH">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="storageLength" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">4</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:string id="PARMINFO.PARM_DATA" length="5" name="PARM_DATA">
+      <properties:properties>
+        <properties:property name="picture" type="string">X(5)</properties:property>
+        <properties:property name="storageLength" type="number">5</properties:property>
+        <properties:property name="displayLength" type="number">5</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">char</properties:property>
+        <properties:property name="mask" type="string">X(5)</properties:property>
+      </properties:properties>
+    </listructure:string>
+    <listructure:number id="PARMINFO.GRAND_TOTAL" length="7" name="GRAND_TOTAL">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(7)</properties:property>
+        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+        <properties:property name="displayLength" type="number">7</properties:property>
+        <properties:property name="integerDigits" type="number">7</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">binary</properties:property>
+      </properties:properties>
+    </listructure:number>
+    <listructure:number id="PARMINFO.TOTAL_RECORD" initial="0" length="3" name="TOTAL_RECORD">
+      <properties:properties>
+        <properties:property name="picture" type="string">999</properties:property>
+        <properties:property name="value">0</properties:property>
+        <properties:property name="storageLength" type="number">3</properties:property>
+        <properties:property name="displayLength" type="number">3</properties:property>
+        <properties:property name="integerDigits" type="number">3</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">zoned</properties:property>
+        <properties:property name="mask" type="string">999</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>

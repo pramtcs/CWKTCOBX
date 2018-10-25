@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWKTCOBX_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWKTCOBX" encoding="1047" id="Unit%20Test/Scenarios/CWKTCOBX_Scenario.testscenario%23CWKTCOBXCase1" target="CWKTCOBX">
+      <testcase:description></testcase:description>
+      <testcase:ddio>COMPWR.CPWR.CX.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1539246156000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTCOBX.interface#Unit%20Test/Interfaces/CWKTCOBX.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F500000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F500009D29F0F2F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_LTH" id="input.arg0.PARMINFO.PARM_LTH" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_DATA" id="input.arg0.PARMINFO.PARM_DATA" offset="2"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.GRAND_TOTAL" id="input.arg0.PARMINFO.GRAND_TOTAL" offset="7"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.TOTAL_RECORD" id="input.arg0.PARMINFO.TOTAL_RECORD" offset="11"/>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for PARM_LTH failed" name="Check for PARM_LTH" refData="#input.arg0.PARMINFO.PARM_LTH">
+          <checkconditions:expression>BigDecimalCreator.make('5').compareTo(output.arg0.PARMINFO.PARM_LTH) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for PARM_DATA failed" name="Check for PARM_DATA" refData="#input.arg0.PARMINFO.PARM_DATA">
+          <checkconditions:expression>'00005' eq output.arg0.PARMINFO.PARM_DATA</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="string">00005</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for GRAND_TOTAL failed" name="Check for GRAND_TOTAL" refData="#input.arg0.PARMINFO.GRAND_TOTAL">
+          <checkconditions:expression>BigDecimalCreator.make('40233').compareTo(output.arg0.PARMINFO.GRAND_TOTAL) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">40233</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for TOTAL_RECORD failed" name="Check for TOTAL_RECORD" refData="#input.arg0.PARMINFO.TOTAL_RECORD">
+          <checkconditions:expression>BigDecimalCreator.make('20').compareTo(output.arg0.PARMINFO.TOTAL_RECORD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">20</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTSUBC_01.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTDATE_01.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_EMPFILE_READ_01.stub#Unit%20Test/Stubs/CWKTCOBX_EMPFILE_READ_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_RPTFILE_WRITE_01.stub#Unit%20Test/Stubs/CWKTCOBX_RPTFILE_WRITE_01.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWKTCOBX" encoding="1047" id="Unit%20Test/Scenarios/CWKTCOBX_Scenario.testscenario%23CWKTCOBXCase2" target="CWKTCOBX">
+      <testcase:description></testcase:description>
+      <testcase:ddio>COMPWR.CPWR.CX.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1539246156000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTCOBX.interface#Unit%20Test/Interfaces/CWKTCOBX.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F500000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F500009D29F0F2F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_LTH" id="input.arg0.PARMINFO.PARM_LTH" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_DATA" id="input.arg0.PARMINFO.PARM_DATA" offset="2"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.GRAND_TOTAL" id="input.arg0.PARMINFO.GRAND_TOTAL" offset="7"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.TOTAL_RECORD" id="input.arg0.PARMINFO.TOTAL_RECORD" offset="11"/>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for PARM_LTH failed" name="Check for PARM_LTH" refData="#input.arg0.PARMINFO.PARM_LTH">
+          <checkconditions:expression>BigDecimalCreator.make('5').compareTo(output.arg0.PARMINFO.PARM_LTH) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for PARM_DATA failed" name="Check for PARM_DATA" refData="#input.arg0.PARMINFO.PARM_DATA">
+          <checkconditions:expression>'00005' eq output.arg0.PARMINFO.PARM_DATA</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="string">00005</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for GRAND_TOTAL failed" name="Check for GRAND_TOTAL" refData="#input.arg0.PARMINFO.GRAND_TOTAL">
+          <checkconditions:expression>BigDecimalCreator.make('40233').compareTo(output.arg0.PARMINFO.GRAND_TOTAL) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">40233</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for TOTAL_RECORD failed" name="Check for TOTAL_RECORD" refData="#input.arg0.PARMINFO.TOTAL_RECORD">
+          <checkconditions:expression>BigDecimalCreator.make('20').compareTo(output.arg0.PARMINFO.TOTAL_RECORD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">20</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTSUBC_02.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTSUBC_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTDATE_02.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTDATE_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_EMPFILE_READ_02.stub#Unit%20Test/Stubs/CWKTCOBX_EMPFILE_READ_02.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_RPTFILE_WRITE_02.stub#Unit%20Test/Stubs/CWKTCOBX_RPTFILE_WRITE_02.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWKTCOBX" encoding="1047" id="Unit%20Test/Scenarios/CWKTCOBX_Scenario.testscenario%23CWKTCOBXCase3" target="CWKTCOBX">
+      <testcase:description></testcase:description>
+      <testcase:ddio>COMPWR.CPWR.CX.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1539246156000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTCOBX.interface#Unit%20Test/Interfaces/CWKTCOBX.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F500000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F500009D29F0F2F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_LTH" id="input.arg0.PARMINFO.PARM_LTH" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_DATA" id="input.arg0.PARMINFO.PARM_DATA" offset="2"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.GRAND_TOTAL" id="input.arg0.PARMINFO.GRAND_TOTAL" offset="7"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.TOTAL_RECORD" id="input.arg0.PARMINFO.TOTAL_RECORD" offset="11"/>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for PARM_LTH failed" name="Check for PARM_LTH" refData="#input.arg0.PARMINFO.PARM_LTH">
+          <checkconditions:expression>BigDecimalCreator.make('5').compareTo(output.arg0.PARMINFO.PARM_LTH) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for PARM_DATA failed" name="Check for PARM_DATA" refData="#input.arg0.PARMINFO.PARM_DATA">
+          <checkconditions:expression>'00005' eq output.arg0.PARMINFO.PARM_DATA</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="string">00005</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for GRAND_TOTAL failed" name="Check for GRAND_TOTAL" refData="#input.arg0.PARMINFO.GRAND_TOTAL">
+          <checkconditions:expression>BigDecimalCreator.make('40233').compareTo(output.arg0.PARMINFO.GRAND_TOTAL) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">40233</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for TOTAL_RECORD failed" name="Check for TOTAL_RECORD" refData="#input.arg0.PARMINFO.TOTAL_RECORD">
+          <checkconditions:expression>BigDecimalCreator.make('20').compareTo(output.arg0.PARMINFO.TOTAL_RECORD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">20</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTDATE_03.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTDATE_03.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTSUBC_03.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTSUBC_03.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_RPTFILE_WRITE_03.stub#Unit%20Test/Stubs/CWKTCOBX_RPTFILE_WRITE_03.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_EMPFILE_READ_03.stub#Unit%20Test/Stubs/CWKTCOBX_EMPFILE_READ_03.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWKTCOBX" encoding="1047" id="Unit%20Test/Scenarios/CWKTCOBX_Scenario.testscenario%23CWKTCOBXCase4" target="CWKTCOBX">
+      <testcase:description></testcase:description>
+      <testcase:ddio>COMPWR.CPWR.CX.DDIO</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1539246156000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTCOBX.interface#Unit%20Test/Interfaces/CWKTCOBX.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F500000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F500009D29F0F2F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_LTH" id="input.arg0.PARMINFO.PARM_LTH" offset="0"/>
+        <testcase:data baseType="listructure:stringType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.PARM_DATA" id="input.arg0.PARMINFO.PARM_DATA" offset="2"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.GRAND_TOTAL" id="input.arg0.PARMINFO.GRAND_TOTAL" offset="7"/>
+        <testcase:data baseType="listructure:numberType ../Structures/CWKTCOBX_PARMINFO.listructure#PARMINFO.TOTAL_RECORD" id="input.arg0.PARMINFO.TOTAL_RECORD" offset="11"/>
+      </testcase:input>
+      <testcase:output listructure="../Structures/CWKTCOBX_PARMINFO.listructure#Unit%20Test/Structures/CWKTCOBX_PARMINFO.listructure"/>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for PARM_LTH failed" name="Check for PARM_LTH" refData="#input.arg0.PARMINFO.PARM_LTH">
+          <checkconditions:expression>BigDecimalCreator.make('5').compareTo(output.arg0.PARMINFO.PARM_LTH) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for PARM_DATA failed" name="Check for PARM_DATA" refData="#input.arg0.PARMINFO.PARM_DATA">
+          <checkconditions:expression>'00005' eq output.arg0.PARMINFO.PARM_DATA</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="string">00005</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for GRAND_TOTAL failed" name="Check for GRAND_TOTAL" refData="#input.arg0.PARMINFO.GRAND_TOTAL">
+          <checkconditions:expression>BigDecimalCreator.make('40233').compareTo(output.arg0.PARMINFO.GRAND_TOTAL) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">40233</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+        <checkconditions:simpleCheckcondition message="Check for TOTAL_RECORD failed" name="Check for TOTAL_RECORD" refData="#input.arg0.PARMINFO.TOTAL_RECORD">
+          <checkconditions:expression>BigDecimalCreator.make('20').compareTo(output.arg0.PARMINFO.TOTAL_RECORD) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">20</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTSUBC_04.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTSUBC_04.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_CWKTDATE_04.stub#Unit%20Test/Stubs/CWKTCOBX_CWKTDATE_04.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_RPTFILE_WRITE_04.stub#Unit%20Test/Stubs/CWKTCOBX_RPTFILE_WRITE_04.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTCOBX_EMPFILE_READ_04.stub#Unit%20Test/Stubs/CWKTCOBX_EMPFILE_READ_04.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

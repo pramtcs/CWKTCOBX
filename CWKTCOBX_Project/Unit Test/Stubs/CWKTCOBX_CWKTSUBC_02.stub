@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTCOBX_CWKTSUBC_02.stub" stubtype="Program" target="CWKTSUBC" token="70000">
+  <properties:properties>
+    <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
+  </properties:properties>
+  <stub:description>Created: Oct 11, 2018 5:36:49 PM</stub:description>
+  <stub:stubdata id="0" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input0.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="input0.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="input0.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output0.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F0F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output0.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0560000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output0.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input0.arg0.EMP_TYPE.EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg0.EMP_TYPE.EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input0.arg1.CALC_SALES.CALC_SALES">
+        <checkconditions:expression>BigDecimalCreator.make('70000.00').compareTo(result.arg1.CALC_SALES.CALC_SALES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">70000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input0.arg2.CALC_COMMISSION.CALC_COMMISSION">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.CALC_COMMISSION.CALC_COMMISSION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input1.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="input1.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="input1.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output1.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output1.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0100000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output1.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input1.arg0.EMP_TYPE.EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg0.EMP_TYPE.EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg1.CALC_SALES.CALC_SALES">
+        <checkconditions:expression>BigDecimalCreator.make('25000.00').compareTo(result.arg1.CALC_SALES.CALC_SALES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">25000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input1.arg2.CALC_COMMISSION.CALC_COMMISSION">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.CALC_COMMISSION.CALC_COMMISSION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input2.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="input2.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="input2.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output2.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output2.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0600000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output2.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input2.arg0.EMP_TYPE.EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg0.EMP_TYPE.EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg1.CALC_SALES.CALC_SALES">
+        <checkconditions:expression>BigDecimalCreator.make('75000.00').compareTo(result.arg1.CALC_SALES.CALC_SALES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">75000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input2.arg2.CALC_COMMISSION.CALC_COMMISSION">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.CALC_COMMISSION.CALC_COMMISSION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input3.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F5F5F5F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="input3.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="input3.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output3.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F5F5F5F5F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output3.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0333300F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output3.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input3.arg0.EMP_TYPE.EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg0.EMP_TYPE.EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg1.CALC_SALES.CALC_SALES">
+        <checkconditions:expression>BigDecimalCreator.make('55550.00').compareTo(result.arg1.CALC_SALES.CALC_SALES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">55550.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input3.arg2.CALC_COMMISSION.CALC_COMMISSION">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.CALC_COMMISSION.CALC_COMMISSION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input4.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="input4.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="input4.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output4.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output4.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0600000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output4.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input4.arg0.EMP_TYPE.EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg0.EMP_TYPE.EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg1.CALC_SALES.CALC_SALES">
+        <checkconditions:expression>BigDecimalCreator.make('75000.00').compareTo(result.arg1.CALC_SALES.CALC_SALES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">75000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input4.arg2.CALC_COMMISSION.CALC_COMMISSION">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.CALC_COMMISSION.CALC_COMMISSION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input5.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F8F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="input5.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="input5.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output5.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F8F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output5.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0112000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output5.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input5.arg0.EMP_TYPE.EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg0.EMP_TYPE.EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg1.CALC_SALES.CALC_SALES">
+        <checkconditions:expression>BigDecimalCreator.make('28000.00').compareTo(result.arg1.CALC_SALES.CALC_SALES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">28000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input5.arg2.CALC_COMMISSION.CALC_COMMISSION">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.CALC_COMMISSION.CALC_COMMISSION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="CWKTSUBC">
+    <stub:interface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/CWKTCOBX_CWKTSUBC.interface#Unit%20Test/Interfaces/CWKTCOBX_CWKTSUBC.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input6.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="input6.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:input>
+    <stub:input listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="input6.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:input>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTCOBX_CWKTSUBC_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="output6.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F7F5F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-SALES.listructure#CALC_SALES.CALC_SALES" id="output6.arg1.CALC_SALES.CALC_SALES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0600000F</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTCOBX_CWKTSUBC_CALC-COMMISSION.listructure#CALC_COMMISSION.CALC_COMMISSION" id="output6.arg2.CALC_COMMISSION.CALC_COMMISSION" offset="0"/>
+    </stub:output>
+    <stub:inputDataCheckconditions>
+      <checkconditions:simpleCheckcondition refData="#input6.arg0.EMP_TYPE.EMP_TYPE">
+        <checkconditions:expression>'S' eq result.arg0.EMP_TYPE.EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">S</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input6.arg1.CALC_SALES.CALC_SALES">
+        <checkconditions:expression>BigDecimalCreator.make('75000.00').compareTo(result.arg1.CALC_SALES.CALC_SALES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">75000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#input6.arg2.CALC_COMMISSION.CALC_COMMISSION">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.CALC_COMMISSION.CALC_COMMISSION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:inputDataCheckconditions>
+  </stub:stubdata>
+</stub:stub>
